@@ -5,11 +5,13 @@
   
   .team__list {
     @extend %list;
+    display: flex;
+    flex-direction: column;
     margin-left: calc(-1 * var(--margin-card));
     margin-top: calc(-1 * var(--margin-card));
 
     @media screen and (min-width: 768px) {
-      display: flex;
+      flex-direction: row;
       flex-wrap: wrap;
     } 
   }
