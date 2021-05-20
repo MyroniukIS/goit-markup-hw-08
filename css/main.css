@@ -97,7 +97,6 @@ a {
 .container {
   padding-left: 15px;
   padding-right: 15px;
-  width: 100%;
 }
 
 @media screen and (min-width: 480px) {
@@ -721,6 +720,8 @@ a {
 }
 
 .clients__item {
+  display: flex;
+  justify-content: center;
   margin-left: var(--margin-card);
   margin-top: var(--margin-card);
 }

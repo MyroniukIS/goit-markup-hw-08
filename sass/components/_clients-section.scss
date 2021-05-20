@@ -12,6 +12,8 @@
   }
 
   .clients__item {
+    display: flex;
+    justify-content: center;
     margin-left: var(--margin-card);
     margin-top: var(--margin-card);
 
