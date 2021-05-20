@@ -2,9 +2,7 @@
 .features {
   @extend %section;
 }
-.features__box {
-  @extend %container;
-}
+
 .features__list {
     display: flex;
     margin-right: calc(-1 * var(--margin-card));

@@ -4,10 +4,6 @@
   @extend %section;
 }
 
-.galery__box {
-  @extend %container;
-}
-
 .galery__filter {
     @extend %list;
     display: flex;

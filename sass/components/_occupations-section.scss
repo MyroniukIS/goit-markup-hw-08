@@ -3,9 +3,7 @@
     padding-top: 0;
     @extend %section;
   }
-  .occupations__box {
-    @extend %container;
-  }
+  
   .occupations__list {
     display: flex;
     margin-right: calc(-1 * var(--margin-card));

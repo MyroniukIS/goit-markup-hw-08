@@ -3,9 +3,7 @@
     @extend %section;
     background-color: var(--team-section-bcg-color);
   }
-  .team__box {
-    @extend %container;
-  }
+  
   .team__list {
     @extend %list;
     display: flex;

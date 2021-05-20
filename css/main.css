@@ -87,7 +87,7 @@ a {
   padding-bottom: 94px;
 }
 
-.header__nav, .features__box, .occupations__box, .team__box, .clients__box, .footer__box, .galery__box {
+.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;

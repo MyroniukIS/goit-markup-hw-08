@@ -7,7 +7,6 @@
   .footer__box {
     display: flex;
     align-items: baseline;
-    @extend %container;
   }
   /*E footer address area*/
   .footer__address-area {

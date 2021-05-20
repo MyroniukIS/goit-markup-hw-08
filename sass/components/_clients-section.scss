@@ -2,9 +2,7 @@
 .clients {
   @extend %section;
 }
-.clients__box {
-  @extend %container;
-}
+
 .clients__list {
     @extend %list;
     display: inline-flex;
