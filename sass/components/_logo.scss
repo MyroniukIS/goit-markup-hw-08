@@ -7,8 +7,13 @@
   }
   .header__logo {
     @extend %logo;
-    margin-right: 93px;
+    margin: 0;
     color: var(--headers-nav-color);
+
+    @media screen and (min-width: 1200px) {
+      margin-right: 93px;
+    }
+
   }
   .footer__logo {
     @extend %logo;
