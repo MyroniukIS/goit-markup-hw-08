@@ -11,8 +11,8 @@
   }
   .hero-modal__wind {
     position: absolute;
-    width: 528px;
-    height: 581px;
+    width: 450px;
+    height: 610px;
     top: 50%;
     left: 50%;
     padding: 40px;
@@ -24,6 +24,11 @@
     opacity: 1;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
       opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width: 1200px) {
+      width: 528px;
+      height: 581px;
+    }
   }
   .is-hidden {
     opacity: 0;

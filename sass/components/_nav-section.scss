@@ -3,17 +3,28 @@
   border-bottom: 1px solid var(--border-color);
 }
 .header__nav {
-    display: flex;
-    align-items: center;
+  position: relative;
+  display: flex;
+  align-items: center;
   }
+
+
   /*E navigation-list-of-pages*/
   .nav {
-    margin-right: auto;
+    @media screen and (min-width: 1200px) {
+      margin-right: auto;
+    }
   }
   .nav__list {
     display: flex;
     @extend %list;
   }
+  .nav__list--column {
+    @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+      flex-direction: column;
+    }
+  }
+
   .nav__item {
     &:not(:last-child) {
       margin-right: 50px;
