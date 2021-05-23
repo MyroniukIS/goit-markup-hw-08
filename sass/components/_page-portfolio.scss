@@ -66,6 +66,7 @@
     margin-top: calc(-1 * var(--margin-card));
   
     @media screen and (min-width: 768px) {
+      align-items: stretch;
       flex-wrap: wrap;
       flex-direction: row;
     } 
@@ -77,10 +78,12 @@
 
     @media screen and (min-width: 480px) {
       flex-basis: calc((100% - 1 * var(--margin-card)) / 1);
+      flex-grow: 1;
     }
 
     @media screen and (min-width: 768px) {
       flex-basis: calc((100% - 2 * var(--margin-card)) / 2);
+      flex-grow: 1;
     }
 
     @media screen and (min-width: 1200px) {
@@ -90,6 +93,8 @@
   .galery__link {
     display: block;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    flex-direction: column;
+    height: 100%;
   
     &:hover,
     &:focus {
@@ -137,6 +142,7 @@
     border-right: 1px solid var(--border-color-portfolio);
     border-bottom: 1px solid var(--border-color-portfolio);
     border-left: 1px solid var(--border-color-portfolio);
+    flex-grow: 1;
   }
   .galery__card-title {
     margin-bottom: 4px;
