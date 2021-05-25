@@ -9,6 +9,7 @@
 
     @media screen and (max-width: 767.98px) {
       margin-top: -15px;
+      margin-left: -8px;
     }
 
     @media screen and (min-width: 768px) {
@@ -25,11 +26,16 @@
 
     @media screen and (max-width: 767.98px) {
       margin-top: 15px;
+      margin-left: 8px;
     }
 
-    &:not(:last-child) {
-      margin-right: 8px;
+
+    @media screen and (min-width: 768px) {
+      &:not(:last-child) {
+        margin-right: 8px;
+      }
     }
+    
   }
   
   .galery__filter-btn {
